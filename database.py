@@ -48,7 +48,3 @@ def drop_users():
             """DROP TABLE IF EXISTS users CASCADE;"""
         )
         print('[INFO] Table USERS was deleted.')
-
-def creating_database():
-    create_table_users()
-    drop_users()
